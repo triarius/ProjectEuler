@@ -128,3 +128,6 @@ executables:
   prob32:
     source-dirs:      src
     main:             32.hs
+  prob33:
+    source-dirs:      src
+    main:             33.hs
