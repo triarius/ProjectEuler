@@ -1,0 +1,130 @@
+name:                ProjectEuler
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/trigtriarius/ProjectEuler#readme
+license:             BSD3
+author:              Narthana Epa
+maintainer:          narthana.epa@gmail.com
+copyright:           GPLv3
+category:            Web
+extra-source-files:
+  - README.md
+
+ghc-options: -Wall -O2
+
+dependencies:
+  - base >= 4.7 && < 5
+
+# move to executables when ghc-mod is fixed
+  - pqueue
+  - containers
+  - integer-logarithms
+
+library:
+  source-dirs:      src
+  exposed-modules:
+    - ProjectEuler.Primes
+    - ProjectEuler.Divisors
+
+executables:
+  prob1:
+    source-dirs:      src
+    main:             1.hs
+  prob2:
+    source-dirs:      src
+    main:             2.hs
+  prob3:
+    source-dirs:      src
+    main:             3.hs
+  prob4:
+    source-dirs:      src
+    main:             4.hs
+  prob5:
+    source-dirs:      src
+    main:             5.hs
+  prob6:
+    source-dirs:      src
+    main:             6.hs
+  prob7:
+    source-dirs:      src
+    main:             7.hs
+  prob8:
+    source-dirs:      src
+    main:             8.hs
+  prob9:
+    source-dirs:      src
+    main:             9.hs
+  prob10:
+    source-dirs:      src
+    main:             10.hs
+  prob11:
+    source-dirs:      src
+    main:             11.hs
+  prob12:
+    source-dirs:      src
+    main:             12.hs
+  prob13:
+    source-dirs:      src
+    main:             13.hs
+  prob14:
+    source-dirs:      src
+    main:             14.hs
+  prob15:
+    source-dirs:      src
+    main:             15.hs
+  prob16:
+    source-dirs:      src
+    main:             16.hs
+  prob17:
+    source-dirs:      src
+    main:             17.hs
+  prob18:
+    source-dirs:      src
+    main:             18.hs
+  prob19:
+    source-dirs:      src
+    main:             19.hs
+  prob20:
+    source-dirs:      src
+    main:             20.hs
+  prob21:
+    source-dirs:      src
+    main:             21.hs
+  prob22:
+    source-dirs:      src
+    main:             22.hs
+  prob23:
+    source-dirs:      src
+    main:             23.hs
+    dependencies:
+      - containers
+  prob24:
+    source-dirs:      src
+    main:             24.hs
+  prob25:
+    source-dirs:      src
+    main:             25.hs
+  prob26:
+    source-dirs:      src
+    main:             26.hs
+  prob27:
+    source-dirs:      src
+    main:             27.hs
+  prob28:
+    source-dirs:      src
+    main:             28.hs
+  prob29:
+    source-dirs:      src
+    main:             29.hs
+  prob30:
+    source-dirs:      src
+    main:             30.hs
+    dependencies:
+      - integer-logarithms
+  prob31:
+    source-dirs:      src
+    main:             31.hs
+  prob32:
+    source-dirs:      src
+    main:             32.hs
