@@ -26,6 +26,7 @@ library:
   exposed-modules:
     - ProjectEuler.Primes
     - ProjectEuler.Divisors
+    - ProjectEuler.DigitUpper
 
 executables:
   prob1:
@@ -131,3 +132,6 @@ executables:
   prob33:
     source-dirs:      src
     main:             33.hs
+  prob34:
+    source-dirs:      src
+    main:             34.hs

@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 2f0f6c70db03afa4368ba64731c81507d4e34307e26a8e80cb5773abbc7f784f
+-- hash: 385700c071060f9bddba021b765f6d9f9d72002eb8f30d29ffe27eff1eb5df3e
 
 name:           ProjectEuler
 version:        0.1.0.0
@@ -23,6 +23,7 @@ library
   exposed-modules:
       ProjectEuler.Primes
       ProjectEuler.Divisors
+      ProjectEuler.DigitUpper
   other-modules:
       Paths_ProjectEuler
   hs-source-dirs:
@@ -38,6 +39,7 @@ library
 executable prob1
   main-is: 1.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -54,6 +56,7 @@ executable prob1
 executable prob10
   main-is: 10.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -70,6 +73,7 @@ executable prob10
 executable prob11
   main-is: 11.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -86,6 +90,7 @@ executable prob11
 executable prob12
   main-is: 12.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -102,6 +107,7 @@ executable prob12
 executable prob13
   main-is: 13.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -118,6 +124,7 @@ executable prob13
 executable prob14
   main-is: 14.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -134,6 +141,7 @@ executable prob14
 executable prob15
   main-is: 15.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -150,6 +158,7 @@ executable prob15
 executable prob16
   main-is: 16.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -166,6 +175,7 @@ executable prob16
 executable prob17
   main-is: 17.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -182,6 +192,7 @@ executable prob17
 executable prob18
   main-is: 18.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -198,6 +209,7 @@ executable prob18
 executable prob19
   main-is: 19.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -214,6 +226,7 @@ executable prob19
 executable prob2
   main-is: 2.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -230,6 +243,7 @@ executable prob2
 executable prob20
   main-is: 20.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -246,6 +260,7 @@ executable prob20
 executable prob21
   main-is: 21.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -262,6 +277,7 @@ executable prob21
 executable prob22
   main-is: 22.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -278,6 +294,7 @@ executable prob22
 executable prob23
   main-is: 23.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -294,6 +311,7 @@ executable prob23
 executable prob24
   main-is: 24.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -310,6 +328,7 @@ executable prob24
 executable prob25
   main-is: 25.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -326,6 +345,7 @@ executable prob25
 executable prob26
   main-is: 26.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -342,6 +362,7 @@ executable prob26
 executable prob27
   main-is: 27.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -358,6 +379,7 @@ executable prob27
 executable prob28
   main-is: 28.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -374,6 +396,7 @@ executable prob28
 executable prob29
   main-is: 29.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -390,6 +413,7 @@ executable prob29
 executable prob3
   main-is: 3.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -406,6 +430,7 @@ executable prob3
 executable prob30
   main-is: 30.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -422,6 +447,7 @@ executable prob30
 executable prob31
   main-is: 31.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -438,6 +464,7 @@ executable prob31
 executable prob32
   main-is: 32.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -454,6 +481,24 @@ executable prob32
 executable prob33
   main-is: 33.hs
   other-modules:
+      ProjectEuler.DigitUpper
+      ProjectEuler.Divisors
+      ProjectEuler.Primes
+      Paths_ProjectEuler
+  hs-source-dirs:
+      src
+  ghc-options: -Wall -O2
+  build-depends:
+      base >=4.7 && <5
+    , containers
+    , integer-logarithms
+    , pqueue
+  default-language: Haskell2010
+
+executable prob34
+  main-is: 34.hs
+  other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -470,6 +515,7 @@ executable prob33
 executable prob4
   main-is: 4.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -486,6 +532,7 @@ executable prob4
 executable prob5
   main-is: 5.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -502,6 +549,7 @@ executable prob5
 executable prob6
   main-is: 6.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -518,6 +566,7 @@ executable prob6
 executable prob7
   main-is: 7.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -534,6 +583,7 @@ executable prob7
 executable prob8
   main-is: 8.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
@@ -550,6 +600,7 @@ executable prob8
 executable prob9
   main-is: 9.hs
   other-modules:
+      ProjectEuler.DigitUpper
       ProjectEuler.Divisors
       ProjectEuler.Primes
       Paths_ProjectEuler
