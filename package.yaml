@@ -135,3 +135,6 @@ executables:
   prob34:
     source-dirs:      src
     main:             34.hs
+  prob35:
+    source-dirs:      src
+    main:             35.hs

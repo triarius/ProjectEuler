@@ -1,4 +1,4 @@
-module ProjectEuler.Primes (isPrime, primes) where
+module ProjectEuler.Primes (isPrime, isPrimeOwnList, primes) where
 
 import qualified Data.PQueue.Prio.Min as PQ
 import           ProjectEuler.Divisors (isqrt)
@@ -27,7 +27,12 @@ insertPrime p ys = PQ.insert (p*p) (map (*p) ys)
 isPrime :: Integer -> Bool
 isPrime 1 = False
 isPrime p = not . any ((0==) . (p' `rem`)) . takeWhile (<= isqrt p') $ primes
-    where p' = abs p
+  where p' = abs p
+
+isPrimeOwnList :: [Integer] -> Integer -> Bool
+isPrimeOwnList _ 1 = False
+isPrimeOwnList ps p = not . any ((0==) . (p' `rem`)) . takeWhile (<= isqrt p') $ ps
+  where p' = abs p
 
 sieve' :: [Integer] -> PQ.MinPQueue Integer [Integer] -> [Integer]
 sieve' [] _ = []
