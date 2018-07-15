@@ -3,12 +3,7 @@ import qualified Data.Set as S
 import Data.List (foldl', unfoldr)
 import Data.Tuple (swap)
 import ProjectEuler.Primes (primes, isPrimeOwnList)
-
-digits :: Integer -> [Integer]
-digits = unfoldr (\x -> if x == 0 then Nothing else Just . swap . divMod x $ 10)
-
-undigits :: [Integer] -> Integer
-undigits = foldl' ((+) . (10*)) 0
+import ProjectEuler.Digits (digits, undigits)
 
 rotations :: [a] -> [[a]]
 rotations xs = map (take n) $ scanl (const . tail) (cycle xs) [1..n-1]
