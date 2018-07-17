@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 2952cbb2c66e2d49dad5513280e7bdbd1e486217b94d757a5c7c1f85a010d0ae
+-- hash: aea2d5da51cb21cea155cb97c37942fe57519ab2b9b1c6fad8e60a7dfdda6d6b
 
 name:           ProjectEuler
 version:        0.1.0.0
@@ -560,6 +560,24 @@ executable prob35
 
 executable prob36
   main-is: 36.hs
+  other-modules:
+      ProjectEuler.Digits
+      ProjectEuler.DigitUpper
+      ProjectEuler.Divisors
+      ProjectEuler.Primes
+      Paths_ProjectEuler
+  hs-source-dirs:
+      src
+  ghc-options: -Wall -O2
+  build-depends:
+      base >=4.7 && <5
+    , containers
+    , integer-logarithms
+    , pqueue
+  default-language: Haskell2010
+
+executable prob37
+  main-is: 37.hs
   other-modules:
       ProjectEuler.Digits
       ProjectEuler.DigitUpper
