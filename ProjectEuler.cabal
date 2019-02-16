@@ -1,8 +1,10 @@
--- This file has been generated from package.yaml by hpack version 0.28.2.
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.1.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: aea2d5da51cb21cea155cb97c37942fe57519ab2b9b1c6fad8e60a7dfdda6d6b
+-- hash: 78d0674b1eef3823fdd2f4c6c50510665c629a102e04632fd72f34fb3ec3538b
 
 name:           ProjectEuler
 version:        0.1.0.0
@@ -14,7 +16,6 @@ copyright:      GPLv3
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
-cabal-version:  >= 1.10
 extra-source-files:
     README.md
 
