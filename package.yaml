@@ -149,3 +149,8 @@ executables:
   prob37:
     source-dirs:      src
     main:             37.hs
+  prob38:
+    source-dirs:      src
+    main:             38.hs
+    dependencies:
+    - combinat
