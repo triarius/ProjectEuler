@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 78d0674b1eef3823fdd2f4c6c50510665c629a102e04632fd72f34fb3ec3538b
+-- hash: 0a4c472a14cae3a5a212c40633afb83d16c52cdd0feb53e798bcfe8d8aea348b
 
 name:           ProjectEuler
 version:        0.1.0.0
@@ -29,7 +29,7 @@ library
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -47,7 +47,7 @@ executable prob1
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -65,7 +65,7 @@ executable prob10
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -83,7 +83,7 @@ executable prob11
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -101,7 +101,7 @@ executable prob12
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -119,7 +119,7 @@ executable prob13
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -137,7 +137,7 @@ executable prob14
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -155,7 +155,7 @@ executable prob15
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -173,7 +173,7 @@ executable prob16
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -191,7 +191,7 @@ executable prob17
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -209,7 +209,7 @@ executable prob18
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -227,7 +227,7 @@ executable prob19
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -245,7 +245,7 @@ executable prob2
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -263,7 +263,7 @@ executable prob20
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -281,7 +281,7 @@ executable prob21
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -299,7 +299,7 @@ executable prob22
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -317,7 +317,7 @@ executable prob23
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -335,7 +335,7 @@ executable prob24
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -353,7 +353,7 @@ executable prob25
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -371,7 +371,7 @@ executable prob26
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -389,7 +389,7 @@ executable prob27
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -407,7 +407,7 @@ executable prob28
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -425,7 +425,7 @@ executable prob29
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -443,7 +443,7 @@ executable prob3
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -461,7 +461,7 @@ executable prob30
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -479,7 +479,7 @@ executable prob31
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -497,7 +497,7 @@ executable prob32
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -515,7 +515,7 @@ executable prob33
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -533,7 +533,7 @@ executable prob34
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -551,7 +551,7 @@ executable prob35
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -569,7 +569,7 @@ executable prob36
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -587,9 +587,28 @@ executable prob37
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
+    , containers
+    , integer-logarithms
+    , pqueue
+  default-language: Haskell2010
+
+executable prob38
+  main-is: 38.hs
+  other-modules:
+      ProjectEuler.Digits
+      ProjectEuler.DigitUpper
+      ProjectEuler.Divisors
+      ProjectEuler.Primes
+      Paths_ProjectEuler
+  hs-source-dirs:
+      src
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
+  build-depends:
+      base >=4.7 && <5
+    , combinat
     , containers
     , integer-logarithms
     , pqueue
@@ -605,7 +624,7 @@ executable prob4
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -623,7 +642,7 @@ executable prob5
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -641,7 +660,7 @@ executable prob6
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -659,7 +678,7 @@ executable prob7
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -677,7 +696,7 @@ executable prob8
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers
@@ -695,7 +714,7 @@ executable prob9
       Paths_ProjectEuler
   hs-source-dirs:
       src
-  ghc-options: -Wall -O2
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
   build-depends:
       base >=4.7 && <5
     , containers

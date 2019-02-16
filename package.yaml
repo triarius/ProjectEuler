@@ -9,25 +9,29 @@ maintainer:          narthana.epa@gmail.com
 copyright:           GPLv3
 category:            Web
 extra-source-files:
-  - README.md
+- README.md
 
-ghc-options: -Wall -O2
+ghc-options: >-
+  -Wall
+  -Wcompat
+  -Wincomplete-record-updates
+  -Wincomplete-uni-patterns
+  -Wredundant-constraints
+  -O2
 
 dependencies:
-  - base >= 4.7 && < 5
-
-# move to executables when ghc-mod is fixed
-  - pqueue
-  - containers
-  - integer-logarithms
+- base >= 4.7 && < 5
+- integer-logarithms
+- pqueue
+- containers
 
 library:
-  source-dirs:      src
+  source-dirs: src
   exposed-modules:
-    - ProjectEuler.Primes
-    - ProjectEuler.Divisors
-    - ProjectEuler.Digits
-    - ProjectEuler.DigitUpper
+  - ProjectEuler.Primes
+  - ProjectEuler.Divisors
+  - ProjectEuler.Digits
+  - ProjectEuler.DigitUpper
 
 executables:
   prob1:
