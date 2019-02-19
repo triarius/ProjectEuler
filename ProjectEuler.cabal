@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 0a4c472a14cae3a5a212c40633afb83d16c52cdd0feb53e798bcfe8d8aea348b
+-- hash: 24eac2dea80d1b6871a15a69f377ffec1a925139b1ac81e3f0f487cfae65234b
 
 name:           ProjectEuler
 version:        0.1.0.0
@@ -609,6 +609,24 @@ executable prob38
   build-depends:
       base >=4.7 && <5
     , combinat
+    , containers
+    , integer-logarithms
+    , pqueue
+  default-language: Haskell2010
+
+executable prob39
+  main-is: 39.hs
+  other-modules:
+      ProjectEuler.Digits
+      ProjectEuler.DigitUpper
+      ProjectEuler.Divisors
+      ProjectEuler.Primes
+      Paths_ProjectEuler
+  hs-source-dirs:
+      src
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -O2
+  build-depends:
+      base >=4.7 && <5
     , containers
     , integer-logarithms
     , pqueue
